@@ -27,6 +27,7 @@ h1 {
 .TodoWrapper {
   background: #FFFFFF;
   margin-top: 5rem;
+  margin-left: 2rem;
   padding: 2rem;
   border: 2px solid #000000;
   border-radius: 5px;
@@ -86,4 +87,20 @@ h1 {
 .completed {
   color: #808080;
   text-decoration: line-through;
+}
+
+
+.PageWrapper {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.TipsBlock {
+  width: 300px;
+  padding-left: 5rem;
+  margin-top: 5rem;
+  margin-right: 2rem;
 }
