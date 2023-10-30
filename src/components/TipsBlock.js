@@ -22,7 +22,8 @@ export const TipsBlock = ({todos}) => {
             { role: "user", content: `You must give constructive suggestions on the todo list I provide,
                                       taking about priority, guidance on how to achieve them, and some 
                                       encouragement.
-                                      Your words should be no more than 50 words.
+                                      Your words should be no more than 50 words in the format of casual chat.
+                                      Don't use dot points.
                                       I have these tasks to complete: ${taskList.join(', ')}.`  },
           ],
           max_tokens: 500,
