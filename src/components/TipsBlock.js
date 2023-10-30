@@ -32,7 +32,7 @@ export const TipsBlock = ({todos}) => {
           stop: "\n",
           temperature: 0.8,
         }),
-      });
+      })
 
       if (!response.ok) {
         throw new Error(`Server request failed with status ${response.status}`);
@@ -49,7 +49,7 @@ export const TipsBlock = ({todos}) => {
       getTips(taskList);
     }
     
-  }, [todos]);
+  }, [todos, API_KEY]);
 
   useEffect(() => {
     if (displayIndex < messageContent.length) {
