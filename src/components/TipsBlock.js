@@ -4,7 +4,8 @@ export const TipsBlock = ({todos}) => {
   const [tips, setTips] = useState("");
   const [displayIndex, setDisplayIndex] = useState(0);
   const [messageContent, setMessageContent] = useState("");
-  const API_KEY = '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';
+
+  const API_KEY = process.env.REACT_APP_API_KEY;
 
   useEffect(() => {
 
